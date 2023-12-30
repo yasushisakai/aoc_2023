@@ -1,0 +1,10 @@
+# advent of code 2023 in rust
+# run using examples
+
+# test against "examples" of each day
+cargo test
+
+# intended to have the input file saved:
+# "/inputs/dXX.txt"
+
+cargo run --example d1
