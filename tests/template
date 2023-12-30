@@ -1,0 +1,18 @@
+mod day99_tests {
+
+    use aoc_2023::day99;
+
+    const CONTENT: &'static str = r#""#;
+
+    #[test]
+    fn part1() {
+        let answer = day99::part1(CONTENT);
+        assert_eq!(answer, 0);
+    }
+
+    // #[test]
+    // fn part2() {
+    //     let answer = day99::part2(CONTENT);
+    //     assert_eq!(answer, 0);
+    // }
+}

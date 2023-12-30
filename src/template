@@ -1,0 +1,11 @@
+
+fn parse(content: &str) -> Vec<usize> {
+}
+
+pub fn part1(content: &str) -> usize {
+    todo!()
+}
+
+pub fn part2(content: &str) -> usize {
+    todo!()
+}
