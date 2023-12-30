@@ -1,0 +1,12 @@
+use aoc_2023::day11::{part1, part2};
+use std::fs;
+
+fn main() {
+    let day = 11;
+    let path = format!("inputs/d{day}.txt");
+    let content = fs::read_to_string(path).unwrap();
+    let answer = part1(&content);
+    println!("part1: {answer}");
+    let answer = part2(&content, 1000_000);
+    println!("part2: {answer}");
+}
